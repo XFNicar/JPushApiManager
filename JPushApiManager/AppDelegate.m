@@ -19,7 +19,8 @@ static NSString * const JPushAppKey = @"在这里填写你的极光推送AppKey"
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[JPushApiManager sharedManager] setJPushAppKey:JPushAppKey didFinishLaunchingWithOptions:launchOptions delegate:self];
+    JPushApiManager *manager = [JPushApiManager sharedManager];
+    [manager setJPushAppKey:JPushAppKey didFinishLaunchingWithOptions:launchOptions delegate:self];
     return YES;
 }
 

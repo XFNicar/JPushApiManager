@@ -12,11 +12,11 @@
 
 static JPushApiManager *s_instance;
 
-- (void)setJPushAppKey:(NSString *)appKey didFinishLaunchingWithOptions:(nonnull NSDictionary *)launchOptions {
+- (void)setJPushAppKey:(NSString *)appKey didFinishLaunchingWithOptions:(nonnull NSDictionary *)launchOptions delegate:(nonnull id<JPushApiManagerDelegate>)delegate {
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.0) {
         JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
         entity.types = UNAuthorizationOptionAlert|UNAuthorizationOptionBadge|UNAuthorizationOptionSound;
-        [JPUSHService registerForRemoteNotificationConfig:entity delegate:self.delegate];
+        [JPUSHService registerForRemoteNotificationConfig:entity delegate:delegate];
     }
     else if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
         //可以添加自定义categories
