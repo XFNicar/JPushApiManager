@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "9.0"
+  # s.ios.deployment_target = "9.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "UIKit","Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
