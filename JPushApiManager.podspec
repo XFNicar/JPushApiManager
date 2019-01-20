@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "UIKit","Foundation"
+  # s.frameworks = "UIKit","Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -129,10 +129,13 @@ Pod::Spec.new do |s|
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
+  # s.static_framework = true
+
 
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency 'JPush'
+  s.dependency 'JCore'
 
 end
