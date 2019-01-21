@@ -12,26 +12,16 @@ Pod::Spec.new do |s|
   s.name         = "JPushApiManager"
   s.version      = "0.0.1"
   s.summary      = "组件化方式管理极光推送代码"
-
-
   s.description  = <<-DESC
                     组件化方式管理极光推送代码，以方便代码中一处修改全局生效
                    DESC
 
   s.homepage     = "https://github.com/XFNicar/JPushApiManager"
-
   s.license      = { :type => "MIT", :file => "LICENSE" }
-
-
   s.author             = { "XieFei" => "xuejingwen25@163.com" }
-  
   s.platform     = :ios, "9.0"
-
-
   s.source       = { :git => "https://github.com/XFNicar/JPushApiManager.git", :tag => "#{s.version}" }
-
   s.source_files  = "Classes/*.{h,m}"
- 
   s.requires_arc = true
   s.ios.vendored_libraries = 'libs/*.a'
 
