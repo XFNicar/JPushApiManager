@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.author             = { "XieFei" => "xuejingwen25@163.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/XFNicar/JPushApiManager.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes/*.{h,m}"
+  s.source_files  = "JPushApiManager/JPushApiManager/*.{h,m}"
   s.requires_arc = true
-  s.ios.vendored_libraries = 'libs/*.a'
-
+  # s.ios.vendored_libraries = 'libs/*.a'
+  s.dependency "JPush", "~> 3.1.2"
 end
