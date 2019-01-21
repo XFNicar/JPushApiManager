@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <JPush/JPUSHService.h>
+#import "JPUSHService.h"
 #import <AdSupport/AdSupport.h>
 #import <UserNotifications/UserNotifications.h>
 NS_ASSUME_NONNULL_BEGIN
