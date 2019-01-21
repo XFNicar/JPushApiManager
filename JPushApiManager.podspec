@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "JPushApiManager"
-  s.version      = "3.1.2"
+  s.version      = "3.1.2.1"
   s.summary      = "组件化方式管理极光推送代码"
   s.description  = <<-DESC
                     组件化方式管理极光推送代码，以方便代码中一处修改全局生效
