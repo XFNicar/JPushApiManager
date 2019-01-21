@@ -9,9 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <JPush/JPUSHService.h>
 #import <AdSupport/AdSupport.h>
-#ifdef NSFoundationVersionNumber_iOS_9_x_Max
 #import <UserNotifications/UserNotifications.h>
-#endif
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol JPushApiManagerDelegate <JPUSHRegisterDelegate>

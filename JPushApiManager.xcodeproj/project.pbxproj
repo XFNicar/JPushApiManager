@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		707F6EF4477BE7372BA2292F /* libPods-JPushApiManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C54079CF35816B9DC985611D /* libPods-JPushApiManager.a */; };
+		0D6F98435240EAF2F6093CAC /* Pods_JPushApiManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593AC63BF7D94C273F2CDC71 /* Pods_JPushApiManager.framework */; };
 		A033F83621F202C0002C427D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A033F83521F202C0002C427D /* AppDelegate.m */; };
 		A033F83921F202C0002C427D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A033F83821F202C0002C427D /* ViewController.m */; };
 		A033F83C21F202C0002C427D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A033F83A21F202C0002C427D /* Main.storyboard */; };
@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		593AC63BF7D94C273F2CDC71 /* Pods_JPushApiManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPushApiManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C91CCAB7E9865DFAC0B321 /* Pods-JPushApiManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPushApiManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPushApiManager/Pods-JPushApiManager.release.xcconfig"; sourceTree = "<group>"; };
 		A033F83121F202C0002C427D /* JPushApiManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPushApiManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A033F83421F202C0002C427D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		A033F84321F202C1002C427D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A033F84B21F20378002C427D /* JPushApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPushApiManager.h; sourceTree = "<group>"; };
 		A033F84C21F20378002C427D /* JPushApiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPushApiManager.m; sourceTree = "<group>"; };
-		C54079CF35816B9DC985611D /* libPods-JPushApiManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JPushApiManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE84610BBAAB766DBC22DB7 /* Pods-JPushApiManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPushApiManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPushApiManager/Pods-JPushApiManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				707F6EF4477BE7372BA2292F /* libPods-JPushApiManager.a in Frameworks */,
+				0D6F98435240EAF2F6093CAC /* Pods_JPushApiManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 		08503F53E162F59F7B4BDBC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C54079CF35816B9DC985611D /* libPods-JPushApiManager.a */,
+				593AC63BF7D94C273F2CDC71 /* Pods_JPushApiManager.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
